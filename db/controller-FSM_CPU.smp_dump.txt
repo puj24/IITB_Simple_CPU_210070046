@@ -1,0 +1,15 @@
+
+State Machine - |Controller_FSM_IITBCPU|s_present
+Name s_present.s11 s_present.s10 s_present.s9 s_present.s8 s_present.s7 s_present.s6 s_present.s5 s_present.s4 s_present.s3 s_present.s2 s_present.s1 s_present.s_reset 
+s_present.s_reset 0 0 0 0 0 0 0 0 0 0 0 0 
+s_present.s1 0 0 0 0 0 0 0 0 0 0 1 1 
+s_present.s2 0 0 0 0 0 0 0 0 0 1 0 1 
+s_present.s3 0 0 0 0 0 0 0 0 1 0 0 1 
+s_present.s4 0 0 0 0 0 0 0 1 0 0 0 1 
+s_present.s5 0 0 0 0 0 0 1 0 0 0 0 1 
+s_present.s6 0 0 0 0 0 1 0 0 0 0 0 1 
+s_present.s7 0 0 0 0 1 0 0 0 0 0 0 1 
+s_present.s8 0 0 0 1 0 0 0 0 0 0 0 1 
+s_present.s9 0 0 1 0 0 0 0 0 0 0 0 1 
+s_present.s10 0 1 0 0 0 0 0 0 0 0 0 1 
+s_present.s11 1 0 0 0 0 0 0 0 0 0 0 1 
